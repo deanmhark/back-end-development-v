@@ -6,24 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bod1"> 
    <div class="navbar"> 
     <div class="img22">
-   <img src="images/Logo.png" alt="">
+        
    </div>
 <ul>
   <li><a href="index.php">Home</a></li>
   <li><a href="Recipes.php">Recipes</a></li>
   <li><a href="Reviews.php">Reviews</a></li>
   <li><a href="Category.php">Category</a></li>
-  <input type="text" placeholder="Search..">
-  
-
 </ul>
+<a href="#"><i class="fa fa-fw fa-search"></i> </a>
+</form>
+<form> <a href="#"><i class="fa-solid fa-bookmark"></i> </a>
+</form>
+<form><a href="#"><i class="fa-solid fa-circle-user"></i></form></a>
+  
 </div>
+
 <div class="content">
 
 <h2>YOUR ONLINE</h2>
