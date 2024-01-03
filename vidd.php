@@ -9,7 +9,7 @@
         video upload
     </title>
     <style>
-      body {
+body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -116,45 +116,28 @@ input[type="submit"]:hover {
         text-align: left;
     }
 }
-    </style>
-
-</head>
-<body> 
-   <div class="navbar"> 
+</style>
+<body>
+<div class="navbar"> 
     <div class="img22">
    <img src="images/Logo.png" alt="">
     </div>  
 <ul>
   <li><a href="index.php">Home</a></li>
-  <li><a href="view.php">Add videos</a></li>
-  <li><a href="view_recipes.php">See Posted Ingredients</a></li>
-  <li><a href="addin.php">Add Ingredients</a></li>
-  
+  <li><a href="view.php">videos</a></li>
+  <li><a href="view_recipes.php">Posts</a></li>
+  <li><a href="Recipes.php">Add Recipes</a></li>
+  <li><a href="imggg.php">Add Image</a></li>
 </ul>
 </div>
 <div class="Recipe">
-<h1>Add a New Recipe</h1>
-    
-    <form action="process_recipe.php" method="post">
-    <div class="form-group">
-        <label for="Recipe">Recipe Title:</label>
-        <input  class="form-control" name="Recipe" required><br>
-    </div>
-    <h6>Description</h6>
-    <div class="col-75">
-      <textarea  for="description" id="subject" name="description" placeholder="Write something.." style="height:200px" required></textarea>
-    </div>
-    <div class="form-group">
-        <label for="Tags">Tags:</label>
-        <input  name="Tags" class="form-control" required></input><br>
-    </div>
-    <h6>Directions</h6>
-    <div class="col-75">
-      <textarea for="Directions" id="subject" name="Directions" placeholder="Write something.." style="height:200px" required></textarea>
-    </div>
-    <div class="form-group">
-        <input type="submit" class="form-control" value="Post recipe">
-    </div>
-    </form>     
- </body>
+<h1>Add videos</h1> 
+            <div class="form-group">
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+            <input type="file" class="form-control" name="my_video" required><br><br>
+            <input type="submit" class="form-control" name="submit" value="POST VIDEO">
+</div>
+</div>
+</form>      
+</body>
 </html>

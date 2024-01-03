@@ -9,7 +9,7 @@
         video upload
     </title>
     <style>
-      body {
+body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -116,45 +116,45 @@ input[type="submit"]:hover {
         text-align: left;
     }
 }
-    </style>
-
+</style>
 </head>
-<body> 
-   <div class="navbar"> 
+<body>
+<div class="navbar"> 
     <div class="img22">
    <img src="images/Logo.png" alt="">
     </div>  
 <ul>
   <li><a href="index.php">Home</a></li>
-  <li><a href="view.php">Add videos</a></li>
-  <li><a href="view_recipes.php">See Posted Ingredients</a></li>
-  <li><a href="addin.php">Add Ingredients</a></li>
-  
+  <li><a href="view.php">Add Videos</a></li>
+  <li><a href="view_recipes.php">Posts</a></li>
+  <li><a href="Recipes.php">Add Recipes</a></li>
 </ul>
 </div>
 <div class="Recipe">
-<h1>Add a New Recipe</h1>
-    
-    <form action="process_recipe.php" method="post">
+<h4>add field</h4>
+    <h1>Add Ingredients</h1>
+    <form action="PR.php" method="post">
     <div class="form-group">
-        <label for="Recipe">Recipe Title:</label>
-        <input  class="form-control" name="Recipe" required><br>
-    </div>
-    <h6>Description</h6>
-    <div class="col-75">
-      <textarea  for="description" id="subject" name="description" placeholder="Write something.." style="height:200px" required></textarea>
+        <label for="IngredientName">Ingredient Name:</label>
+        <input name="IngredientName"  class="col-form-label" required></input><br>
     </div>
     <div class="form-group">
-        <label for="Tags">Tags:</label>
-        <input  name="Tags" class="form-control" required></input><br>
-    </div>
-    <h6>Directions</h6>
-    <div class="col-75">
-      <textarea for="Directions" id="subject" name="Directions" placeholder="Write something.." style="height:200px" required></textarea>
+        <label for="IngredientAmmount">Total cost:</label>
+        <input name="IngredientAmmount"  class="col-form-label" required></input><br>
+</div>
+    <div class="form-group">
+        <label for="NumberOfServings">Number of Servings:</label>
+        <input name="NumberOfServings"  class="col-form-label" required></input><br>
     </div>
     <div class="form-group">
-        <input type="submit" class="form-control" value="Post recipe">
+        <label for="CookTime">Cooking Time::</label>
+        <input name="CookTime"  class="col-form-label" required></input><br>
     </div>
-    </form>     
- </body>
+
+    <div class="form-group">
+        <input type="submit" class="form-control" value="ADD RECIPE">
+    </div>
+    </form>  
+</div> 
+</body>
 </html>

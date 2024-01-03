@@ -67,7 +67,8 @@
         </div>
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="Recipes.php">UPLOAD</a></li>
+            <li><a href="vidd.php">UPLOAD videos</a></li>
+            <li><a href="Recipes.php">Add Recipes</a></li>
         </ul>
     </div>
     <div class="alb">
